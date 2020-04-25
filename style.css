@@ -1,3 +1,33 @@
 body {
     background-color: rgb(236, 236, 236);
 }
+
+h1 {
+    margin: 1em auto;
+}
+
+p {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.685);
+    margin: 2em auto;
+}
+
+.ryan-img {
+    width: 30%;
+    height: 10%;
+    height: auto;
+    box-shadow: 10 0 10px rgb(92, 92, 92);
+}
+
+@media (max-width: 992px) { 
+    .ryan-img {
+        width: 75%;
+    }
+}

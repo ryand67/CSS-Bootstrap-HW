@@ -1,0 +1,6 @@
+.form-mine {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin: 5rem auto; 
+}
