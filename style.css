@@ -11,7 +11,7 @@ body {
 
 /* Height is 100% of screen minus the nav */
 main {
-    height: 100vh;
+    height: calc(100vh - 56px);
     margin-top: 56px;
     background-color: var(--main-light-color);
 }
@@ -38,16 +38,21 @@ a:active {
     bottom: 25px;
 }
 
-#second-title {
+.second-title {
     display: none;
 }
 
 @media (max-width: 522px) { 
-    #first-title {
+    .first-title {
         display: none;
     }
 
-    #second-title {
+    .second-title {
         display: flex;
+        flex-direction: column;
+    }
+
+    .socials {
+        bottom: 10px;
     }
 }
