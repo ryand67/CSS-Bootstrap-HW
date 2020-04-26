@@ -6,11 +6,12 @@
 body {
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
+    overflow: hidden;
 }
 
 /* Height is 100% of screen minus the nav */
 main {
-    height: calc(100vh-56px);
+    height: 100vh;
     margin-top: 56px;
     background-color: var(--main-light-color);
 }
