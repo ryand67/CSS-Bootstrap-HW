@@ -6,8 +6,8 @@
 body {
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
-    overflow: hidden;
-}
+    /* overflow: hidden; */
+}   
 
 /* Height is 100% of screen minus the nav */
 main {
@@ -42,7 +42,7 @@ a:active {
     display: none;
 }
 
-@media (max-width: 522px) { 
+@media (max-width: 775px) { 
     .first-title {
         display: none;
     }
